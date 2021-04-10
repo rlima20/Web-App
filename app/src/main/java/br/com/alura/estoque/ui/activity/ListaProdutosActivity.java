@@ -49,6 +49,7 @@ public class ListaProdutosActivity extends AppCompatActivity {
         dao = db.getProdutoDAO();
 
         buscaProdutos();
+        buscaProdutos();
     }
 
     private void buscaProdutos() {
