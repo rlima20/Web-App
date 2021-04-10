@@ -31,6 +31,10 @@ public class ListaProdutosActivity extends AppCompatActivity {
     private ListaProdutosAdapter adapter;
     private ProdutoDAO dao;
 
+    /**
+     * Commit Raphael
+     */
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
