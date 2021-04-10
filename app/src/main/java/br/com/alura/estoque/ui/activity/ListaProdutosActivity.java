@@ -31,6 +31,11 @@ public class ListaProdutosActivity extends AppCompatActivity {
     private ListaProdutosAdapter adapter;
     private ProdutoDAO dao;
 
+    /**
+     * Commit Raphael
+     * Commit Raphael2
+     */
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +48,7 @@ public class ListaProdutosActivity extends AppCompatActivity {
         EstoqueDatabase db = EstoqueDatabase.getInstance(this);
         dao = db.getProdutoDAO();
 
+        buscaProdutos();
         buscaProdutos();
     }
 
