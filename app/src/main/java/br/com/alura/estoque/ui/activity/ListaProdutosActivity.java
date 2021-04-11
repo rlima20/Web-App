@@ -38,6 +38,11 @@ public class ListaProdutosActivity extends AppCompatActivity {
      * Commit Raphael Novo 2
      * Commit Vandeco
      */
+
+    /**
+     * Novo comentário Falcão
+     * @param savedInstanceState
+     */
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +56,6 @@ public class ListaProdutosActivity extends AppCompatActivity {
         EstoqueDatabase db = EstoqueDatabase.getInstance(this);
         dao = db.getProdutoDAO();
 
-        buscaProdutos();
         buscaProdutos();
     }
 
